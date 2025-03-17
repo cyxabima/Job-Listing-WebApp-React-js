@@ -1,20 +1,18 @@
 import React from 'react'
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
+import HomeCard from './components/HomeCard'
+import JobListings from './components/JobListings'
+import AllJobBtn from './components/AllJobBtn'
 
 const App = () => {
-  const name = "Ukasha"
-  const spanStyle = { color: "green", fontFamily: "monospace" }
-
-  // loop example
-  const users = ['ukasha', 'Inshal', 'Urwah']
   return (
     <>
-      <div className='text-red-500 text-5xl'>App</div>
-      <p>Hello <span style={spanStyle}>{name}</span> welcome to my app</p>
-      <ul>
-        {users.map((user, index) => (<li key={index}>{user}</li>)
-
-        )}
-      </ul>
+      <NavBar />
+      <Hero />
+      <HomeCard />
+      <JobListings />
+      <AllJobBtn />
     </>
   )
 }
