@@ -10,7 +10,7 @@ const JobListings = ({ isHome = false }) => {
 
     // this is also correct
     useEffect(() => {
-        const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs"
+        const apiUrl = isHome ? "http://localhost:3000/jobs?_limit=3" : "http://localhost:3000/jobs"
         fetch(apiUrl)
             .then((response) => response.json())
             .then((data) => setJobs(data))
