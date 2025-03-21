@@ -18,7 +18,7 @@ function NavBar() {
                         <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
                             <img
                                 className="h-10 w-auto"
-                                src="../assets/images/logo.png"
+                                src={logo}
                                 alt="React Jobs"
                             />
                             {/* <logo className="h-10 w-auto"/> */}
