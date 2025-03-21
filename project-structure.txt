@@ -1,0 +1,40 @@
+.
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── public
+│   ├── jobs.js
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── images
+│   │   │   └── logo.png
+│   │   └── react.svg
+│   ├── components
+│   │   ├── AllJobBtn.jsx
+│   │   ├── Card.jsx
+│   │   ├── Hero.jsx
+│   │   ├── HomeCard.jsx
+│   │   ├── JobListing.jsx
+│   │   ├── JobListings.jsx
+│   │   ├── NavBar.jsx
+│   │   └── Spinner.jsx
+│   ├── index.css
+│   ├── jobs.json
+│   ├── layout
+│   │   └── MainLayout.jsx
+│   ├── main.jsx
+│   └── pages
+│       ├── AddJobPage.jsx
+│       ├── EditJobPage.jsx
+│       ├── HomePage.jsx
+│       ├── JobPage.jsx
+│       ├── JobsPage.jsx
+│       └── NotFoundPage.jsx
+└── vite.config.js
+
+8 directories, 29 files
+ 
